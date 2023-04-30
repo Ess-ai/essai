@@ -18,3 +18,20 @@ body {
 #toggle_nav:checked ~ div #hamburger #line2 {
     @apply -rotate-45 -translate-y-1
 }
+
+
+::-webkit-scrollbar {
+    width: 0.3vw; /* THIS WILL RESET THE DEFAULT SCORLLBAR STYLING */
+  }
+  
+  /* TO STYLE THE SCROLLBAR TRACK */
+  ::-webkit-scrollbar-track {
+    background-color: transparent; /* THIS WILL SET THE COLOR OF THE SCROLLBAR TRACK */
+  }
+  
+  /* TO STYLE THE SCROLLBAR THUMB */
+  ::-webkit-scrollbar-thumb {
+    background-color: #00004d;
+    border: 0.1vw solid transparent;
+    border-radius: 5vw;
+  }
