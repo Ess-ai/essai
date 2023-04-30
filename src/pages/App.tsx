@@ -8,8 +8,8 @@ function App() {
       <Header/>
       <main className="space-y-40 mb-40">
         <Hero/>
-        <Features/>
         <Preview/>
+        <Features/>
       </main>
     </>
   )
