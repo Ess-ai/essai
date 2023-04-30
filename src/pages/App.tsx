@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Header } from '../components'
+import { Features, Header, Preview } from '../components'
 import Hero from '../components/Hero'
 
 function App() {
@@ -8,6 +8,8 @@ function App() {
       <Header/>
       <main className="space-y-40 mb-40">
         <Hero/>
+        <Features/>
+        <Preview/>
       </main>
     </>
   )
