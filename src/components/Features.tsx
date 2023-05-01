@@ -31,10 +31,10 @@ const Features = () => {
 
                     <div className="space-y-2">
                         <h5 className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary">
-                            First feature
+                            Essay Grading & Analysis
                         </h5>
                         <p className="text-gray-600 dark:text-gray-300">
-                            Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.
+                            EssAi uses advanced algorithms to analyze an essay's content and structure, identifying issues such as grammar, punctuation, spelling, and syntax errors. The application then assigns a score and provides students with detailed feedback on how they can improve their writing skills.
                         </p>
                     </div>
                     <a href="#" className="flex items-center justify-between group-hover:text-secondary">
@@ -57,10 +57,10 @@ const Features = () => {
 
                     <div className="space-y-2">
                         <h5 className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary">
-                            Second feature
+                            Customizable grading rubrics:
                         </h5>
                         <p className="text-gray-600 dark:text-gray-300">
-                            Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.
+                            Educators can create and customize their grading rubrics, which EssAi uses to provide scores and feedback to students. This allows instructors to tailor their feedback and evaluation to the specific needs of their students.
                         </p>
                     </div>
                     <a href="#" className="flex items-center justify-between group-hover:text-secondary">
@@ -85,10 +85,10 @@ const Features = () => {
                         <h5
                         className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary"
                         >
-                        Third feature
+                            Report Generation
                         </h5>
                         <p className="text-gray-600 dark:text-gray-300">
-                        Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.
+                            EssAi generates detailed reports on students' performance, including a breakdown of their scores, common errors, and areas of improvement. This feature enables educators to gain insights into their students' writing skills and plan their teaching accordingly.
                         </p>
                     </div>
                     <a href="#" className="flex items-center justify-between group-hover:text-secondary">
@@ -120,7 +120,7 @@ const Features = () => {
                         More features
                         </h5>
                         <p className="text-gray-600 dark:text-gray-300">
-                        Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.
+                            This category would include additional features such as language translation and topic suggestion. Plagiarism checker: The AI essay marker can scan the essay for plagiarized content and provide a report of originality.
                         </p>
                     </div>
                     <a href="#" className="flex items-center justify-between group-hover:text-secondary">
