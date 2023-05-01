@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Features, Footer, Header, Preview, Testimonials } from '../components'
+import { CallToAction, Features, Footer, Header, Preview, Testimonials } from '../components'
 import Hero from '../components/Hero'
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
         <Hero/>
         <Preview/>
         <Features/>
+        <CallToAction/>
         <Testimonials/>
       </main>
       <Footer/>

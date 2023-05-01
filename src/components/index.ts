@@ -1,3 +1,4 @@
+import CallToAction from "./CallToAction";
 import Features from "./Features";
 import Footer from "./Footer";
 import Header from "./Header";
@@ -9,5 +10,6 @@ export{
     Footer,
     Features,
     Preview,
-    Testimonials
+    Testimonials,
+    CallToAction
 }
