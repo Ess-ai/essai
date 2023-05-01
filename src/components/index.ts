@@ -1,3 +1,4 @@
+import Banner from "./Banner";
 import CallToAction from "./CallToAction";
 import Features from "./Features";
 import Footer from "./Footer";
@@ -11,5 +12,6 @@ export{
     Features,
     Preview,
     Testimonials,
-    CallToAction
+    CallToAction,
+    Banner
 }

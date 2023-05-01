@@ -4,7 +4,7 @@ const Preview = () => {
     const imageSrc : string = 'https://i.pinimg.com/originals/51/c3/eb/51c3eb4be6cec00954612736a806e3a5.png'
     return (
         <> 
-            <div id="preview" className='mt-10'>
+            <div id="preview" className='mt-5'>
                 <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
                     <div className="flex justify-center">
                         <div className="mt-16 grid grid-cols-3 lg:divide-y-0 max-w-fit">
