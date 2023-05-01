@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { CallToAction, Features, Footer, Header, Preview, Testimonials } from '../components'
+import { Banner, CallToAction, Features, Footer, Header, Preview, Testimonials } from '../components'
 import Hero from '../components/Hero'
 
 function App() {
