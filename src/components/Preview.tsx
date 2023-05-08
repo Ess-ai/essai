@@ -20,13 +20,21 @@ const Preview = () => {
                         </div>
                     </div>
 
+
+                    <div className="flex justify-center">
+
                     <div className="mt-12 grid grid-cols-2">
-                        <button className="p-4 transition duration-200">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/180px-Google_Play_Store_badge_EN.svg.png?20220907104002" className="h-12 w-auto mx-auto float-right" loading="lazy" alt="client logo" width="" height="" />
-                        </button>
-                        <button className="p-4 transition duration-200">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/135px-Download_on_the_App_Store_Badge.svg.png?20170219160111" className="h-12 w-auto mx-auto float-left" loading="lazy" alt="client logo" width="" height="" />
-                        </button>
+                        <a href="https://store.samsung.com/">
+                            <button className="p-4 transition duration-200">
+                                <img src="./images/clients/samsung.jpeg" className="h-12 w-auto mx-auto float-right scale-100" loading="lazy" alt="client logo" width="" height="" />
+                            </button>
+                        </a>
+                        <a href="https://github.com/JosephGakah/essai-app/">
+                            <button className="p-4 transition duration-200">
+                                <img src="./images/clients/github.png" className="h-12 w-auto mx-auto float-left scale-110" loading="lazy" alt="client logo" width="" height="" />
+                            </button>
+                        </a>
+                    </div>`
                     </div>
                 </div>
             </div>
