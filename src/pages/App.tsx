@@ -1,17 +1,12 @@
-import { useState } from 'react'
-import { Banner, CallToAction, Features, Footer, Header, Preview, Testimonials } from '../components'
-import Hero from '../components/Hero'
+import { Footer, Header } from '../components'
+import AppRouter from '../router/router'
 
 function App() {
   return (
     <>
       <Header/>
       <main className="space-y-20 mb-40">
-        <Hero/>
-        <Preview/>
-        <Features/>
-        <CallToAction/>
-        <Testimonials/>
+        <AppRouter />
       </main>
       <Footer/>
     </>
