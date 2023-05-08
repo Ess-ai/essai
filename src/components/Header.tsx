@@ -81,9 +81,9 @@ const Header = () => {
                                 </span>
                             </span>
                             <span>
-                                We are currently scaling our Apps. Next Release Date: <></>
+                                We are currently in shortage of quotas for AI API Access <></>
                                 <a href="" className="inline font-medium text-blue-600 underline dark:text-blue-500 underline-offset-2 decoration-600 dark:decoration-500 decoration-solid hover:no-underline">
-                                    May 15th 2023
+                                    New Ai under development. Coming Soon.
                                 </a>
                             </span>
                         </p>
