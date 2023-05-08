@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from '../assets/images/lg-l.png'
+import logo from '../../assets/images/lg-l.png'
 import { Link } from 'react-router-dom'
 
 const Header = () => {
@@ -12,9 +12,9 @@ const Header = () => {
                     <div className="flex flex-wrap items-center justify-between py-2 gap-6 md:py-4 md:gap-0 relative">
                         <input aria-hidden="true" type="checkbox" name="toggle_nav" id="toggle_nav" className="hidden peer"/>
                         <div className="relative z-20 w-full flex justify-between lg:w-max md:px-0">
-                            <a href="#home" aria-label="logo" className="flex space-x-2 items-center">
+                            <Link to="/#home" aria-label="logo" className="flex space-x-2 items-center">
                                 <img className='h-auto w-16' src={logo}/>
-                            </a>
+                            </Link>
                             
                             <div className="relative flex items-center lg:hidden max-h-10">
                                 <label role="button" htmlFor="toggle_nav" aria-label="humburger" id="hamburger" className="relative  p-6 -mr-6">
@@ -33,22 +33,22 @@ const Header = () => {
                             <div className="text-gray-600 dark:text-gray-300 lg:pr-4 lg:w-auto w-full lg:pt-0">
                                 <ul className="tracking-wide font-medium lg:text-sm flex-col flex lg:flex-row gap-6 lg:gap-0">
                                     <li>
-                                        <a href="#features" className="block md:px-4 transition hover:text-primary">
+                                        <a href="/#features" className="block md:px-4 transition hover:text-primary">
                                             <span>Features</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#preview" className="block md:px-4 transition hover:text-primary">
+                                        <a href="/#preview" className="block md:px-4 transition hover:text-primary">
                                             <span>Preview</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#testimonials" className="block md:px-4 transition hover:text-primary">
+                                        <a href="/#testimonials" className="block md:px-4 transition hover:text-primary">
                                             <span>Testimonials</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#CallToAction" className="block md:px-4 transition hover:text-primary">
+                                        <a href="/#CallToAction" className="block md:px-4 transition hover:text-primary">
                                             <span>Call to Action</span>
                                         </a>
                                     </li>
@@ -84,7 +84,7 @@ const Header = () => {
                             <span>
                                 We are currently in shortage of quotas for AI API Access <></>
                                 <Link to="/update/ai-development" className="inline font-medium text-blue-600 underline dark:text-blue-500 underline-offset-2 decoration-600 dark:decoration-500 decoration-solid hover:no-underline">
-                                    New Ai under development. Coming Soon.
+                                    AI under development. Learn More.
                                 </Link>
                             </span>
                         </p>
