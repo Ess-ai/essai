@@ -5,7 +5,7 @@ const AppRouter = () => {
   return (
   <Routes>
     <Route path='/' element={<Home />} />
-    <Route path='/ai-development' element={<Update />} />
+    <Route path='/update/ai-development' element={<Update />} />
   </Routes>
   )
 }

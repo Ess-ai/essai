@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import logo from '../assets/images/lg-l.png'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
     const [banner, showBanner] = useState<boolean>(true)
@@ -82,9 +83,9 @@ const Header = () => {
                             </span>
                             <span>
                                 We are currently in shortage of quotas for AI API Access <></>
-                                <a href="" className="inline font-medium text-blue-600 underline dark:text-blue-500 underline-offset-2 decoration-600 dark:decoration-500 decoration-solid hover:no-underline">
+                                <Link to="/update/ai-development" className="inline font-medium text-blue-600 underline dark:text-blue-500 underline-offset-2 decoration-600 dark:decoration-500 decoration-solid hover:no-underline">
                                     New Ai under development. Coming Soon.
-                                </a>
+                                </Link>
                             </span>
                         </p>
                     </div>
