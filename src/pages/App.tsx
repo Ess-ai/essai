@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <Header/>
-      <main className="space-y-20 mb-40">
+      <main className="space-y-20 mb-10">
         <AppRouter />
       </main>
       <Footer/>
