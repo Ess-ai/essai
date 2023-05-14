@@ -19,13 +19,17 @@ const AndroidApk = () => {
                                 Once we accept our limits, we go beyond them.
                                 </h1>
                             </div>
-                            <p className="pt-8 font-normal tracking-wide text-gray-600"> By downloading app, You agree to the essai <></>
+                            <p className="pt-8 font-normal tracking-wide text-gray-600"> By downloading app, You agree to the EssAi <></>
                                 <a href="#" className="text-gray-500 underline">
                                     Privacy Policy
                                 </a> &amp; 
                                 <a href="#" className="text-gray-500 underline">Terms of Service</a>
                             </p>
                             <div className="flex items-center gap-4 pt-12">
+                                <button className="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max">
+                                    <i className='fa fa-download'></i>
+                                    <span className='relative text-base font-semibold text-white'>Download</span>
+                                </button>
                             </div>
                             <div className="mt-12 grid grid-cols-3">
                                 <div className="p-4 flex grayscale transition duration-200 hover:grayscale-0">
