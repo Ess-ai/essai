@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const AndroidApk = () => {
     const onDownloadButtonClick = () => {
-        window.open('https://drive.google.com/file/d/1k8003-2dfZcgE5jodxDMr4dBZg984mob/view?usp=share_link')
+        window.open('https://essai-apk.vercel.app/essai-v1.0.1.apk')
     }
 
     return (
