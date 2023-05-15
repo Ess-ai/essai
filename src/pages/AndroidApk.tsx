@@ -1,5 +1,6 @@
 import React from 'react'
 import Clients from '../components/clients'
+import { Link } from 'react-router-dom'
 
 const AndroidApk = () => {
     const onDownloadButtonClick = () => {
@@ -28,7 +29,7 @@ const AndroidApk = () => {
                                     </svg>
                                     <span className="ml-3">
                                         Please Read the Very Important Notice above Before Downloading Apk or 
-                                        <a href="update/ai-development" className="text-gray-500 underline"> Read Here</a>
+                                        <Link to="update/ai-development" className="text-gray-500 underline"> Read Here</Link>
                                     </span>
                                 </p>
                                 <p className="pt-2 font-normal tracking-wide text-gray-600"> By downloading app, You agree to the EssAi <></>
