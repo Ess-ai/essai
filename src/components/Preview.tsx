@@ -24,9 +24,9 @@ const Preview = () => {
                     <div className="flex justify-center">
 
                     <div className="mt-12 grid grid-cols-2">
-                        <a href="https://store.samsung.com/">
+                        <a href="/download/android/">
                             <button className="p-4 transition duration-200">
-                                <img src="./images/clients/samsung.jpeg" className="h-12 w-auto mx-auto float-right scale-100" loading="lazy" alt="client logo" width="" height="" />
+                                <img src="./images/clients/get_for_android.png" className="h-12 w-auto mx-auto float-right scale-100" loading="lazy" alt="client logo" width="" height="" />
                             </button>
                         </a>
                         <a href="https://github.com/JosephGakah/essai-app/">
