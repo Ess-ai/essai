@@ -29,7 +29,7 @@ const AndroidApk = () => {
                                     </svg>
                                     <span className="ml-3">
                                         Please Read the Very Important Notice above Before Downloading Apk or 
-                                        <Link to="update/ai-development" className="text-gray-500 underline"> Read Here</Link>
+                                        <Link to="/update/ai-development" className="text-gray-500 underline"> Read Here</Link>
                                     </span>
                                 </p>
                                 <p className="pt-2 font-normal tracking-wide text-gray-600"> By downloading app, You agree to the EssAi <></>
