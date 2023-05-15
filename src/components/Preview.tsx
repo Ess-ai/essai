@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Preview = () => {
     const imageSrc : string = 'https://i.pinimg.com/originals/51/c3/eb/51c3eb4be6cec00954612736a806e3a5.png'
@@ -24,11 +25,11 @@ const Preview = () => {
                     <div className="flex justify-center">
 
                     <div className="mt-12 grid grid-cols-2">
-                        <a href="/download/android/">
+                        <Link to="/download/android/">
                             <button className="p-4 transition duration-200">
                                 <img src="./images/clients/get_for_android.png" className="h-12 w-auto mx-auto float-right scale-100" loading="lazy" alt="client logo" width="" height="" />
                             </button>
-                        </a>
+                        </Link>
                         <a href="https://github.com/JosephGakah/essai-app/">
                             <button className="p-4 transition duration-200">
                                 <img src="./images/clients/github.png" className="h-12 w-auto mx-auto float-left scale-110" loading="lazy" alt="client logo" width="" height="" />
