@@ -23,13 +23,21 @@ const AndroidApk = () => {
                                     Once we accept our limits, we go beyond them.
                                     </h1>
                                 </div>
-                                <p className="pt-8 font-normal tracking-wide text-gray-600"> By downloading app, You agree to the EssAi <></>
+                                <p className="pt-8 font-normal tracking-wide text-gray-600 inline-flex">
+                                    <svg className="fill-red-800" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 5.177l8.631 15.823h-17.262l8.631-15.823zm0-4.177l-12 22h24l-12-22zm-1 9h2v6h-2v-6zm1 9.75c-.689 0-1.25-.56-1.25-1.25s.561-1.25 1.25-1.25 1.25.56 1.25 1.25-.561 1.25-1.25 1.25z"/>
+                                    </svg>
+                                    <span className="ml-3">
+                                        Please Read the Very Important Notice above Before Downloading Apk or 
+                                        <a href="update/ai-development" className="text-gray-500 underline"> Read Here</a>
+                                    </span>
+                                </p>
+                                <p className="pt-2 font-normal tracking-wide text-gray-600"> By downloading app, You agree to the EssAi <></>
                                     <a href="#" className="text-gray-500 underline">
                                         Privacy Policy
                                     </a> &amp; 
                                     <a href="#" className="text-gray-500 underline">Terms of Service</a>
                                 </p>
-                                <div className="flex items-center gap-4 pt-12">
+                                <div className="flex items-center gap-4 pt-8">
                                     <button className="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max" onClick={onDownloadButtonClick}>
                                         <i className='fa fa-download'></i>
                                         <span className='relative text-base font-semibold text-white'>Download</span>
